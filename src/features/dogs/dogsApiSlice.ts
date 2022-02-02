@@ -19,7 +19,7 @@ export const dogsApiSlice = createApi({
         prepareHeaders(headers){
             headers.set('x-api-key', DOGS_API_KEY)
             return headers;
-    },
+        },
     }),
     endpoints(builder){
         return{
