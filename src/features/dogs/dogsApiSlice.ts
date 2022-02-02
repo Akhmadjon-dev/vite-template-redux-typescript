@@ -32,3 +32,6 @@ export const dogsApiSlice = createApi({
     },
 
 });
+
+
+export const { useFetchBreedsQuery } = dogsApiSlice;
